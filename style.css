@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playball&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+   --font-family: "Bad Script", cursive;
+   --font-heading: "Playball", cursive;
+   --font-content: "Noto Sans", sans-serif;
+}
+
+.navbar-nav  .nav-link {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+.navbar-nav  .nav-link:active {
+    text-decoration: underline;
+    color: coral;
+}
+
+.Arrivals h3 {
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.Arrivals img {
+    height: 450px;
+    width: 450px;
+}
+
+.products h5 {
+    font-size: 15px;
+}
+
+.product-button button {
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+    background-color: lavender;
+    border-radius: 5px;
+}
+
+.products .card-title {
+    font-style: italic;
+}
+
+.products .card-body {
+    border: none;
+}
+
+.products .card{
+    border: none;
+}
+
+.products .card img {
+    height: 350px;
+
+}
+
+.products .card img:hover {
+    box-shadow: 4px 4px 4px lightblue;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s linear;
+}
+
+.delivery {
+    background-color: lavender;
+}
+
+.review-img img{
+    height: 225px;
+}
+
+marquee ul{
+    list-style: none;
+}
+
+.dharani img{
+    height: 300px;
+}
+
+.review-img img {
+    height: 249px;
+}
+
+.carosel-container{
+    height: 650px;
+}
+
+.carosel-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+#About h3 {
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+#About p {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+.card-body p {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+.customer-heading h3 {
+    font-family: var(--font-heading);
+}
+
+.about-us p {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+
+.about-us h2 {
+    font-family: var(--font-content);
+}
+
+.para p {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+.hweo {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dsaree%2Bbackgrounds&psig=AOvVaw1tbIzn1c2b6HgHCbTUAmmB&ust=1764055030172000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDEtZ2fipEDFQAAAAAdAAAAABAE);
+}
